@@ -1,0 +1,5 @@
+{
+  "name": "Rental Pricing Rule Management",
+  "description": "A web application for managing dynamic car rental pricing rules. It features an intuitive drag-and-drop interface for prioritizing rules and a streamlined single-view editor for efficient price adjustments, addressing key UX challenges in the original system.",
+  "requestFramePermissions": []
+}
