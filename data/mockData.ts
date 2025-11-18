@@ -122,10 +122,7 @@ export const mockRuleTemplate = (): PricingRule => ({
     rentalDateRange: { start: new Date(), end: new Date(new Date().setDate(new Date().getDate() + 30))},
     applicableStores: [],
     sourceChannels: [],
-    customerOrigin: {
-        condition: CustomerOriginCondition.Include,
-        countries: []
-    },
+    customerOrigin: undefined,
     rentalDurationBrackets: [
       { from: 1, to: 1 },
       { from: 2, to: 7 },

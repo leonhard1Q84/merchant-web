@@ -70,3 +70,14 @@ export interface CarModel {
     name: string;
     group: string;
 }
+
+export type ActivityAction = 'Create' | 'Update' | 'Delete' | 'Reorder' | 'Toggle Status';
+
+export interface ActivityLog {
+  id: string;
+  timestamp: Date;
+  action: ActivityAction;
+  ruleId: string;
+  ruleName: string;
+  details: string;
+}
